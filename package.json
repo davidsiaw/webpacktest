@@ -5,13 +5,16 @@
     "babel-preset-latest": "latest",
     "babel-polyfill": "latest",
     "babel-preset-react": "latest",
+    "babel-plugin-transform-runtime": "latest",
     "webpack": "latest",
     "webpack-dev-server": "latest",
     "style-loader": "latest",
-    "css-loader": "latest"
+    "css-loader": "latest",
+    "react": "latest",
+    "react-dom": "latest"
   },
   "scripts": {
     "build": "webpack",
-    "s": "webpack-dev-server"
+    "s": "webpack-dev-server --host 0.0.0.0 --port 8080"
   }
 }
