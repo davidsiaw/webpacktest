@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "babel-loader": "latest",
+    "babel-core": "latest",
+    "babel-preset-latest": "latest",
+    "babel-polyfill": "latest",
+    "babel-preset-react": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest",
+    "style-loader": "latest",
+    "css-loader": "latest"
+  },
+  "scripts": {
+    "build": "webpack",
+    "s": "webpack-dev-server"
+  }
+}
