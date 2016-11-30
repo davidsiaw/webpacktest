@@ -1,17 +1,21 @@
 {
   "dependencies": {
-    "babel-loader": "latest",
     "babel-core": "latest",
-    "babel-preset-latest": "latest",
-    "babel-polyfill": "latest",
-    "babel-preset-react": "latest",
+    "babel-loader": "latest",
     "babel-plugin-transform-runtime": "latest",
-    "webpack": "latest",
-    "webpack-dev-server": "latest",
-    "style-loader": "latest",
+    "babel-polyfill": "latest",
+    "babel-preset-latest": "latest",
+    "babel-preset-react": "latest",
+    "babel-preset-stage-2": "^6.18.0",
     "css-loader": "latest",
+    "material-ui": "^0.16.4",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-tap-event-plugin": "^2.0.1",
+    "react-twitter-widgets": "^1.0.0",
+    "style-loader": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
   },
   "scripts": {
     "build": "webpack",

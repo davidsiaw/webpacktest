@@ -14,7 +14,7 @@ module.exports = {
                 exclude: /(node_modules|bower_components)/,
                 loader: 'babel-loader',
                 query: {
-                    presets: ['latest']
+                    presets: ['latest','stage-2']
                 }
             },
             {
@@ -22,7 +22,7 @@ module.exports = {
                 exclude: /(node_modules|bower_components)/,
                 loader: 'babel-loader',
                 query: {
-                    presets: ['latest','react']
+                    presets: ['latest','react','stage-2']
                 }
             }
         ]
